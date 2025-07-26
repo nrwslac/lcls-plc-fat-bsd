@@ -6,7 +6,7 @@ PRODUCTION_IOC := 1
 
 PROJECT_NAME := lcls-plc-fat-bsd
 PROJECT_PATH := ../../lcls-plc-fat-bsd/lcls-plc-fat-bsd.tsproj
-PLC := fat_bsd 
+PLC := fat_bsd
 
 PYTMC_OPTS := 
 PREFIX := PLC:BSD:FAT
