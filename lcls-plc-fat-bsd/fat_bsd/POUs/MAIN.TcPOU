@@ -3,8 +3,10 @@
   <POU Name="MAIN" Id="{be7aa4c0-9182-4858-a218-fa58c2e5f257}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[Term 4 (EL7041)]^STM Status^Status^Digital input 1;
+                              .bLimitBackwardEnable:=TIIB[Term 4 (EL7041)]^STM Status^Status^Digital input 2'}
 	{attribute 'pytmc' := '
-        pv: FAT:TEST:BSD
+        pv: FAT:TEST:BSD:MMS
     '}
 	M1 : ST_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
     fbMotionStageM1 : FB_MotionStage;
