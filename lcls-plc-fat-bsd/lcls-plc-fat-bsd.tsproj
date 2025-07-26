@@ -1735,7 +1735,7 @@ External Setpoint Generation:
 		</Motion>
 		<Plc>
 			<Project GUID="{533ED55B-ACA1-480B-A400-2DCA31C15515}" Name="fat_bsd" PrjFilePath="fat_bsd\fat_bsd.plcproj" TmcFilePath="fat_bsd\fat_bsd.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{14CB1B9F-01D9-BE58-7F2B-B4F0D1513D56}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{B77F90D1-B231-FA35-28C8-59C9754EA823}">
 					<Name>fat_bsd Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">

@@ -6,15 +6,15 @@ VAR
 	{attribute 'pytmc' := '
         pv: FAT:TEST:BSD
     '}
-	M1 : DUT_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
+	M1 : ST_MotionStage := (nEnableMode:=ENUM_StageEnableMode.ALWAYS, bPowerSelf:=TRUE);
     fbMotionStageM1 : FB_MotionStage;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[fbMotionStageM1(stMotionStage:=M1);
-m1.bHardwareEnable := True;
-m1.bLimitBackwardEnable := True;
-m1.bLimitForwardEnable := True;]]></ST>
+M1.bHardwareEnable := True;
+M1.bLimitBackwardEnable := True;
+M1.bLimitForwardEnable := True;]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="12" Count="2" />

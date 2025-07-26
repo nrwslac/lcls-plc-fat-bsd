@@ -1,0 +1,2 @@
+epicsEnvSet("IOC_TOP", "/c/Users/pcds/plcprojs/lcls-plc-fat-bsd/iocBoot/ioc-fat-bsd")
+epicsEnvSet("IOC_DATA", "/reg/d/iocData")
